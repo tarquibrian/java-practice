@@ -24,14 +24,15 @@ public class Main {
         List myList = new ArrayList();
         myList.add("hola");
         System.out.println(myList);
-
-        Main myMain = new Main();
-        System.out.println(myMain.sumaNumeros(3,31));
-
+//
+//        Main myMain = new Main();
+//        for (int index = 0; index < 10; index++) {
+//            System.out.println(myMain.sumaNumeros(index, 1));
+//        }
+        Second mySecond = new Second();
+        mySecond.printer("my varialbe es ");
     }
-
     public int sumaNumeros(int int1, int int2) {
         return int1 + int2;
     }
-
 }
